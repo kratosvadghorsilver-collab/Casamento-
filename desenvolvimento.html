@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Desenvolvimento | Casamentos Prematuros e Continuidade dos Estudos</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="container nav-container">
+      <div class="logo" style="display: flex; align-items: center; gap: 12px;">
+        <img src="logo-escola.png" alt="Logo Escola" style="height: 48px; width: auto; border-radius: 50%; background: white; padding: 2px;">
+        <div>
+          <div style="font-size: 1rem; font-weight: 700; line-height: 1.2;">Escola Secundária</div>
+          <div style="font-size: 0.8rem; opacity: 0.9;">Marien Ngoubi • Xai-Xai</div>
+        </div>
+      </div>
+      <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+      <nav id="mainNav">
+        <ul>
+          <li><a href="index.html">Início</a></li>
+          <li><a href="introducao.html">Introdução</a></li>
+          <li><a href="objectivos.html">Objectivos</a></li>
+          <li><a href="desenvolvimento.html" class="active">Desenvolvimento</a></li>
+          <li><a href="solucoes.html">Soluções</a></li>
+          <li><a href="recomendacoes.html">Recomendações</a></li>
+          <li><a href="conclusao.html">Conclusão</a></li>
+          <li><a href="referencias.html">Referências</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <div class="page-header">
+    <div class="container">
+      <div class="breadcrumb">Início / Desenvolvimento</div>
+      <h1>Desenvolvimento</h1>
+      <p>Explicação do tema, causas, consequências e impacto na vida escolar</p>
+    </div>
+  </div>
+
+  <section class="content">
+    <div class="container">
+      <div style="margin-bottom: 2rem; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
+        <img src="sala-aula-1.jpg" alt="Alunas na sala de aula" style="width: 100%; max-height: 340px; object-fit: cover; display: block;">
+      </div>
+
+      <p class="lead">O casamento prematuro não é um fenómeno isolado. Resulta da combinação de factores económicos, culturais, sociais e de género que afectam especialmente as raparigas das zonas rurais e das famílias mais pobres.</p>
+
+      <!-- CAUSAS -->
+      <h2 style="color: var(--primary); margin: 2.5rem 0 1rem;">1. Principais Causas</h2>
+      
+      <div class="grid-2">
+        <div class="card">
+          <h3>💰 Pobreza e vulnerabilidade económica</h3>
+          <p>Em muitas famílias, o casamento de uma filha representa alívio económico (através do lobolo ou redução de despesas). A pobreza continua a ser um dos principais motores das uniões prematuras em Moçambique.</p>
+        </div>
+        <div class="card">
+          <h3>🎭 Práticas culturais e tradições</h3>
+          <p>Ritos de iniciação, valorização social da maternidade precoce e normas de género que consideram o casamento como destino principal da rapariga contribuem para a aceitação social do fenómeno.</p>
+        </div>
+        <div class="card">
+          <h3>📚 Baixo nível de escolaridade</h3>
+          <p>Raparigas com pouca ou nenhuma educação têm maior probabilidade de casar cedo. Ao mesmo tempo, o casamento interrompe os estudos, criando um ciclo vicioso.</p>
+        </div>
+        <div class="card">
+          <h3>⚖️ Desigualdade de género</h3>
+          <p>Normas sociais que limitam o poder de decisão das raparigas sobre a sua própria vida e que privilegiam o controlo familiar sobre o seu corpo e futuro.</p>
+        </div>
+        <div class="card">
+          <h3>🏠 Orfandade e chefia precoce do lar</h3>
+          <p>Crianças que perdem os pais ou vivem em agregados chefiados por crianças estão mais expostas a uniões prematuras como estratégia de sobrevivência.</p>
+        </div>
+        <div class="card">
+          <h3>⚔️ Conflitos e crises</h3>
+          <p>Em zonas afectadas por conflitos (como Cabo Delgado), o deslocamento, a perda de meios de vida e a insegurança aumentam o risco de casamentos infantis.</p>
+        </div>
+      </div>
+
+      <!-- CONSEQUÊNCIAS -->
+      <h2 style="color: var(--primary); margin: 2.5rem 0 1rem;">2. Consequências Gerais</h2>
+      
+      <div class="warning-box">
+        <ul style="margin-left: 1rem;">
+          <li><strong>Saúde:</strong> Maior risco de gravidez precoce, complicações no parto, fístula obstétrica, infecções sexualmente transmissíveis (incluindo HIV) e mortalidade materna e infantil.</li>
+          <li><strong>Educação:</strong> Abandono escolar, baixo desempenho e dificuldade de reintegração.</li>
+          <li><strong>Economia:</strong> Menor capacidade de gerar rendimento ao longo da vida, perpetuação da pobreza.</li>
+          <li><strong>Psicológica:</strong> Maior exposição a violência doméstica, isolamento social e problemas de saúde mental.</li>
+          <li><strong>Social:</strong> Limitação de oportunidades, dependência económica e redução da participação cívica.</li>
+        </ul>
+      </div>
+
+      <!-- IMPACTO ESCOLAR -->
+      <h2 style="color: var(--primary); margin: 2.5rem 0 1rem;">3. Impacto Específico na Vida Escolar</h2>
+      
+      <p>O impacto dos casamentos prematuros no processo de ensino e aprendizagem é profundo e multidimensional:</p>
+
+      <div class="card">
+        <h3>📉 Abandono e desistência escolar</h3>
+        <p>Muitas raparigas abandonam a escola imediatamente após o casamento ou após a gravidez. Dados indicam que as raparigas casadas antes dos 18 anos têm quase 8% menos probabilidade de concluir o ensino secundário. Em alguns estudos, as uniões prematuras e gravidezes precoces explicam uma parcela significativa das desistências femininas.</p>
+      </div>
+
+      <div class="card">
+        <h3>📚 Baixo desempenho académico</h3>
+        <p>Mesmo quando permanecem na escola, as raparigas casadas ou grávidas enfrentam dificuldades: falta de tempo para estudar (responsabilidades domésticas e maternas), cansaço, problemas de saúde, estigma e falta de apoio. Isto resulta em notas mais baixas, repetições e, eventualmente, abandono.</p>
+      </div>
+
+      <div class="card">
+        <h3>🔄 Dificuldade de reintegração</h3>
+        <p>Após o parto ou após sair de uma união, muitas raparigas encontram barreiras para regressar à escola: vergonha, falta de apoio familiar, ausência de políticas de reintegração efectivas ou discriminação por parte de colegas e professores.</p>
+      </div>
+
+      <div class="card">
+        <h3>👩‍👧 Efeito intergeracional</h3>
+        <p>Filhas de mães que se casaram cedo e tiveram baixa escolaridade têm maior probabilidade de seguir o mesmo caminho, perpetuando o ciclo de baixa educação e pobreza.</p>
+      </div>
+
+      <div class="highlight-box">
+        <strong>Dado importante:</strong> Segundo análises do UNICEF e parceiros, quase dois terços das mulheres casadas ainda crianças não tinham escolaridade ou tinham apenas o ensino primário incompleto. Manter as raparigas na escola é uma das estratégias mais eficazes para prevenir o casamento prematuro.
+      </div>
+
+      <h2 style="color: var(--primary); margin: 2.5rem 0 1rem;">4. O papel da escola</h2>
+      <p>A escola não é apenas vítima deste fenómeno — é também um espaço privilegiado de prevenção e resposta. Professores que notam mudanças de comportamento, faltas frequentes ou sinais de gravidez podem activar mecanismos de apoio. Conselhos de escola, em colaboração com líderes comunitários, têm conseguido, em vários casos, intervir e trazer raparigas de volta à escola.</p>
+
+      <div class="text-center mt-2">
+        <a href="solucoes.html" class="btn">Ver Soluções e Medidas de Prevenção →</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="copyright">
+        © 2025 • Escola Secundária Marien Ngoubi • Grupo: Antonieta Manhiça, Emilia Mavie, Esménia Majante, Márcia Nhantumbo
+      </div>
+    </div>
+  </footer>
+  <script src="main.js"></script>
+</body>
+</html>
